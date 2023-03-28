@@ -19,13 +19,13 @@ const HeroBanner = () => {
       fontWeight="700"
       sx={{ 
         fontSize: {lg: "40px", xs: "40px"}}}
-      mb="2.3rem" mt="3rem">
+      m="2rem 0">
         Sweat, Smile <br /> and Repeat
       </Typography>
       <Typography 
       fontSize="22px"
       lineHeight="35px"
-      mb="4px">
+      mb=".5rem">
         Check out the most effective exercises
       </Typography>
       <Button 
@@ -36,6 +36,7 @@ const HeroBanner = () => {
         Explore Exercises
       </Button>
        <Typography
+       mt="11rem"
        fontWeight="600"
        color="#ff2625"
        sx={{ 
