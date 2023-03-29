@@ -44,6 +44,17 @@ html {
     }
 }
 
+.navbar-menu {
+    text-decoration: none; 
+    font-family: 'Helvetica';
+    transition: all .1s linear;
+
+    &:hover {
+        border-bottom: 2px solid #ff2625;
+    } 
+}
+
+
 .right-arrow {
     right: 14rem;
 }
