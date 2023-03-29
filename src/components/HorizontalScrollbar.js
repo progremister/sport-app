@@ -9,7 +9,7 @@ const LeftArrow = () => {
     const { scrollPrev } = useContext(VisibilityContext);
   
     return (
-      <Typography onClick={() => scrollPrev()} className="right-arrow">
+      <Typography onClick={() => scrollPrev()} className="right-arrow" sx={{ display: {lg: 'block', sm: 'none'}}}>
         <img src={images.leftArrow} alt="right-arrow" />
       </Typography>
     );
@@ -19,7 +19,7 @@ const LeftArrow = () => {
     const { scrollNext } = useContext(VisibilityContext);
   
     return (
-      <Typography onClick={() => scrollNext()} className="left-arrow">
+      <Typography onClick={() => scrollNext()} className="left-arrow" sx={{ display: {lg: 'block', sm: 'none'}}}>
         <img src={images.rightArrow} alt="right-arrow" />
       </Typography>
     );
@@ -30,7 +30,7 @@ const LeftArrow = () => {
       {data.map((item) => (
         <Box
           key={item.id || item}
-          itemID={item.id || item}
+          itemId={item.id || item}
           title={item.id || item}
           m="0 40px"
         >
