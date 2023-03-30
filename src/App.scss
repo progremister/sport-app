@@ -145,6 +145,16 @@ html {
     }      
 }
 
+.referal {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .5rem;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .react-horizontal-scrolling-menu--scroll-container {
         width: 500px;
